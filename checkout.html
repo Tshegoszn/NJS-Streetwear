@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>NJS Checkout</title>
+
+  <!-- GOOGLE FONT -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- REMIX ICON -->
+  <link
+  href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+  rel="stylesheet"
+  />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/checkout.css">
+
+</head>
+
+<body>
+
+  <div class="cursor-glow"></div>
+
+  <!-- NAVBAR -->
+
+  <nav class="navbar">
+
+    <div class="logo">
+      NJS
+    </div>
+
+    <ul class="nav-links">
+
+      <li><a href="./index.html">Home</a></li>
+
+      <li><a href="./shop.html">Shop</a></li>
+
+      <li><a href="./about.html">About</a></li>
+
+      <li><a href="./contact.html">Contact</a></li>
+
+    </ul>
+
+    <div class="nav-icons">
+
+      <a href="./cart.html" class="cart-link">
+
+        <i class="ri-shopping-bag-line"></i>
+
+      </a>
+
+    </div>
+
+  </nav>
+
+  <!-- CHECKOUT HERO -->
+
+  <section class="checkout-hero">
+
+    <p>SECURE CHECKOUT</p>
+
+    <h1>
+      COMPLETE<br>
+      YOUR ORDER
+    </h1>
+
+  </section>
+
+  <!-- CHECKOUT CONTENT -->
+
+  <section class="checkout-content">
+
+    <!-- LEFT -->
+
+    <div class="checkout-form-area">
+
+      <form class="checkout-form">
+
+        <div class="input-group">
+
+          <input type="text" placeholder="FIRST NAME">
+
+          <input type="text" placeholder="LAST NAME">
+
+        </div>
+
+        <input type="email" placeholder="EMAIL ADDRESS">
+
+        <input type="text" placeholder="PHONE NUMBER">
+
+        <input type="text" placeholder="STREET ADDRESS">
+
+        <div class="input-group">
+
+          <input type="text" placeholder="CITY">
+
+          <input type="text" placeholder="POSTAL CODE">
+
+        </div>
+
+        <select>
+
+          <option>SELECT PROVINCE</option>
+
+          <option>Gauteng</option>
+          <option>Western Cape</option>
+          <option>KwaZulu-Natal</option>
+          <option>North West</option>
+
+        </select>
+
+        <button type="submit">
+          PLACE ORDER
+        </button>
+
+      </form>
+
+    </div>
+
+    <!-- RIGHT -->
+
+    <div class="checkout-summary">
+
+      <h3>ORDER SUMMARY</h3>
+
+      <!-- ITEM -->
+
+      <div class="summary-card">
+
+        <img src="./assets/product1.png">
+
+        <div class="summary-info">
+
+          <h4>Oversized Hoodie</h4>
+
+          <span>Quantity: 1</span>
+
+          <p>R899</p>
+
+        </div>
+
+      </div>
+
+      <!-- ITEM -->
+
+      <div class="summary-card">
+
+        <img src="./assets/product2.png">
+
+        <div class="summary-info">
+
+          <h4>Utility Cargo</h4>
+
+          <span>Quantity: 1</span>
+
+          <p>R749</p>
+
+        </div>
+
+      </div>
+
+
+      <!-- PRICE SUMMARY -->
+
+<div class="price-summary">
+
+  <div class="price-row">
+
+    <span>Subtotal</span>
+
+    <span>R1648</span>
+
+  </div>
+
+  <div class="price-row">
+
+    <span>Shipping</span>
+
+    <span>R120</span>
+
+  </div>
+
+</div>
+
+<!-- PAYMENT METHODS -->
+
+<div class="payment-icons">
+
+<img 
+  src="./assets/visa-new-2021-seeklogo.png" 
+  alt="Visa"
+  >
+
+<img 
+src="https://upload.wikimedia.org/wikipedia/commons/2/2a/Mastercard-logo.svg" 
+alt="Mastercard"
+>
+
+<img 
+  src="./assets/ozow-pty-ltd-seeklogo.png" 
+  alt="Ozow"
+  >
+
+  <img 
+  src="./assets/payflex-seeklogo.png" 
+  alt="Payflex"
+  >
+
+
+</div>
+
+      <!-- TOTAL -->
+
+      <div class="checkout-total">
+
+        <span>TOTAL</span>
+
+        <span>R1768</span>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+  <script src="js/app.js"></script>
+
+</body>
+</html>
