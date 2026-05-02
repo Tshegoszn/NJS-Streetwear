@@ -74,19 +74,7 @@ body{
 }
 
 
-/* MENU TOGGLE */
 
-.menu-toggle{
-  display:none;
-
-  font-size:1.8rem;
-
-  color:white;
-
-  cursor:pointer;
-
-  z-index:10001;
-}
 
 /* NAV ICONS */
 
@@ -195,17 +183,7 @@ button:hover{
 
 @media(max-width:768px){
 
- .menu-toggle{
-  display:none;
 
-  font-size:1.8rem;
-
-  color:white;
-
-  cursor:pointer;
-
-  z-index:10001;
-}
   .nav-links{
     position:fixed;
 
